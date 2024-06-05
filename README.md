@@ -62,8 +62,4 @@
 
 ###
 
-<div align="center">
-  ![Github stats](https://github-readme-stats.vercel.app/api?username=yong-zhuo&count_private=true&show_icons=true&theme=tokyonight)
-</div>
-
 ###
