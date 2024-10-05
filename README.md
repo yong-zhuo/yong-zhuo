@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">Y1 CS Student @ NUS</p>
+<p align="left">Y2 CS Student @ NUS</p>
 
 ###
 
@@ -10,7 +10,7 @@
 
 ###
 
-<p align="left">✨ Interested in Web Development<br>📚 Currently learning Next.js and PostgreSQL<br>🎯 Working on a web-based forum app</p>
+<p align="left">✨ Interested in Web Development<br>📚 Currently learning Next.js<br>
 
 ###
 
