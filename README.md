@@ -6,7 +6,7 @@
 
 ###
 
-<p align="left">🖥️ Currently a Year 2 Computer Science student at the National University of Singapore<br>✨ Interested in Web, Mobile and Game Development<br>🧠 Also pursuing a Minor in Psychology</p>
+<p align="left">🖥️ Currently a Year 3 Computer Science student at the National University of Singapore<br>✨ Interested in developing user-friendly and meaningful software <br>🧠 Also pursuing a Minor in Psychology</p>
 
 ###
 
@@ -62,6 +62,10 @@
   <img src="https://skillicons.dev/icons?i=unity" height="40" alt="unity logo"  />
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=firebase" height="40" alt="firebase logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=azure" height="40" alt="azure logo"  />
+  <img width="12" />
+  <img src="https://skillicons.dev/icons?i=docker" height="40" alt="docker logo"  />
 </div>
 
 ###
