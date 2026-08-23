@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 200" width="880" height="200" role="img" aria-label="Yong Zhuo — Year 4 Computer Science at NUS, aspiring software engineer">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#101314"/>
+      <stop offset="100%" stop-color="#0a0c0d"/>
+    </linearGradient>
+    <clipPath id="clip">
+      <rect x="1" y="1" width="878" height="198" rx="12"/>
+    </clipPath>
+    <clipPath id="typeL1">
+      <rect x="580" y="60" width="0" height="18">
+        <animate attributeName="width" dur="8s" repeatCount="indefinite"
+          keyTimes="0;0.075;0.8125;0.875;1" values="0;78;78;0;0"/>
+      </rect>
+    </clipPath>
+    <clipPath id="typeL2">
+      <rect x="580" y="86" width="0" height="18">
+        <animate attributeName="width" dur="8s" repeatCount="indefinite"
+          keyTimes="0;0.1625;0.2125;0.8125;0.875;1" values="0;0;88;88;0;0"/>
+      </rect>
+    </clipPath>
+    <clipPath id="typeL3">
+      <rect x="580" y="112" width="0" height="18">
+        <animate attributeName="width" dur="8s" repeatCount="indefinite"
+          keyTimes="0;0.325;0.4125;0.8125;0.875;1" values="0;0;112;112;0;0"/>
+      </rect>
+    </clipPath>
+    <clipPath id="typeL4">
+      <rect x="580" y="138" width="0" height="18">
+        <animate attributeName="width" dur="8s" repeatCount="indefinite"
+          keyTimes="0;0.5;0.575;0.8125;0.875;1" values="0;0;92;92;0;0"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <style><![CDATA[
+    .code { font-family: 'IBM Plex Mono','JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-size: 14px; }
+    .cursor { fill: #8fe6cd; animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 0%,50% { opacity: 1; } 51%,100% { opacity: 0; } }
+  ]]></style>
+
+  <rect x="1" y="1" width="878" height="198" rx="12" fill="url(#bg)"/>
+
+  <g clip-path="url(#clip)">
+    <text x="58" y="96" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="46" font-weight="700" letter-spacing="-1.5" fill="#eef6f3">Yong Zhuo</text>
+    <text x="60" y="128" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15.5" font-weight="500" fill="#7ea9c4">Year 4 Computer Science, NUS<tspan fill="#3d6270" dx="10">·</tspan><tspan dx="10" fill="#8fe6cd">Aspiring Software Engineer</tspan></text>
+    <rect x="60" y="144" width="34" height="3" rx="1.5" fill="#8fe6cd"/>
+
+    <!-- floating terminal -->
+    <rect x="560" y="34" width="256" height="132" rx="10" fill="#0f1416" stroke="#1c2528" stroke-width="1.25"/>
+    <rect x="560" y="34" width="256" height="24" rx="10" fill="#12181a"/>
+    <rect x="560" y="46" width="256" height="12" fill="#12181a"/>
+    <circle cx="576" cy="46" r="4" fill="#3d6270"/>
+    <circle cx="590" cy="46" r="4" fill="#7ea9c4"/>
+    <circle cx="604" cy="46" r="4" fill="#8fe6cd"/>
+
+    <g class="code">
+      <g clip-path="url(#typeL1)">
+        <text x="580" y="73" fill="#7ea9c4">$<tspan fill="#eef6f3" dx="8">whoami</tspan></text>
+      </g>
+      <g clip-path="url(#typeL2)">
+        <text x="580" y="99" fill="#8fe6cd">yong-zhuo</text>
+      </g>
+      <g clip-path="url(#typeL3)">
+        <text x="580" y="125" fill="#7ea9c4">$<tspan fill="#eef6f3" dx="8">./build.sh</tspan></text>
+      </g>
+      <g clip-path="url(#typeL4)">
+        <text x="580" y="151" fill="#8fe6cd">✓ shipped</text>
+      </g>
+    </g>
+    <rect class="cursor" width="8" height="14">
+      <animate attributeName="x" dur="8s" repeatCount="indefinite"
+        keyTimes="0;0.075;0.1625;0.163;0.2125;0.325;0.3255;0.4125;0.5;0.5005;0.575;0.875;0.8755;1"
+        values="580;658;658;580;668;668;580;692;692;580;672;672;580;580"/>
+      <animate attributeName="y" dur="8s" repeatCount="indefinite"
+        keyTimes="0;0.075;0.1625;0.163;0.2125;0.325;0.3255;0.4125;0.5;0.5005;0.575;0.875;0.8755;1"
+        values="61;61;61;87;87;87;113;113;113;139;139;139;61;61"/>
+    </rect>
+  </g>
+
+  <rect x="1" y="1" width="878" height="198" rx="12" fill="none" stroke="#1c2528" stroke-width="1.25"/>
+</svg>
